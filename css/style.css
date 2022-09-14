@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nabla&display=swap');
+body{
+    background-color: #181819;
+}
+
+.titre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 80px;
+    margin-left: 22%;
+    background-color: rgb(129, 68, 68);
+    border-radius: 20px;
+    border: solid 5px rgb(233, 233, 157);
+}
+
+.titre h1{
+    font-family: 'Nabla', cursive;
+    font-size: 50px;
+}
+
+.photo{
+  display: flex;
+  margin-left: 5%;
+}
+
+.photo img{
+    background-size : contain;
+    background-position : 50% 50%; 
+    display : inline-block;
+    width : 200px; 
+    height : 275px;
+    border: solid 5px rgb(233, 233, 157);
+    border-radius : 120px;
+}
+
+.photo_nom{
+    margin-top: 7%;
+    width: 25%;
+    height: 85px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_nom h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 35px;
+}
+
+.a_propos{
+    width: 50%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.titre_propos{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(102, 96, 96);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.titre_propos h1{
+    font-size: 40px;
+}
+
+.a_propos p{
+    padding-top: 1%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.a_propos a{
+    text-decoration: none;
+    color: black;
+}
+
+.a_propos a:hover{
+    color: blueviolet;
+}
+
+.contenu_raison{
+    width: 95%;
+    height: 210px;
+    margin-top: 3%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.raison_carte{
+    width: 30%;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.titre_raison{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(102, 96, 96);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.raison_carte{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+.contenu_raison_2{
+    width: 95%;
+    height: 210px;
+    margin-top: 2%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
