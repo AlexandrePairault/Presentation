@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap');
 body{
     background-color: #181819;
 }
@@ -10,13 +10,13 @@ body{
     width: 60%;
     height: 80px;
     margin-left: 22%;
-    background-color: rgb(129, 68, 68);
+    background-color: rgb(102, 96, 96);
     border-radius: 20px;
     border: solid 5px rgb(233, 233, 157);
 }
 
 .titre h1{
-    font-family: 'Nabla', cursive;
+    font-family: 'Bebas Neue', cursive;
     font-size: 50px;
 }
 
@@ -59,6 +59,7 @@ body{
     border-radius: 20px;
     margin-left: 5%;
     margin-top: 2%;
+    
 }
 
 .titre_propos{
@@ -106,7 +107,7 @@ body{
 
 .raison_carte{
     width: 30%;
-    height: 200px;
+    height: 220px;
     background-color: whitesmoke;
     border-radius: 20px;
 }
